@@ -62,10 +62,9 @@ Apply the pod configuration:
 kubectl apply -f memory-request-limit.yaml
 ```
 ### Step 4: Exceed a Container's Memory Limit
-
 Test what happens when the container exceeds its memory limit.
 
-````
+```
 apiVersion: v1
 kind: Pod
 metadata:
