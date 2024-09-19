@@ -58,7 +58,6 @@ spec:
     - "1"
 ```
 Apply the pod configuration:
-
 ```
 kubectl apply -f memory-request-limit.yaml
 ```
